@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-10T17:37:29 ART" name="Default suite" finished-at="2021-04-10T17:37:50 ART" duration-ms="21318">
+    <groups>
+    </groups>
+    <test started-at="2021-04-10T17:37:29 ART" name="Default test" finished-at="2021-04-10T17:37:50 ART" duration-ms="21318">
+      <class name="pruebas.Laboratorio4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:26 ART" name="setUp" finished-at="2021-04-10T17:37:29 ART" duration-ms="2779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="irURL()[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:29 ART" name="irURL" finished-at="2021-04-10T17:37:38 ART" duration-ms="9146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irURL -->
+        <test-method is-config="true" signature="maxVentana()[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:38 ART" name="maxVentana" finished-at="2021-04-10T17:37:38 ART" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maxVentana -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:39 ART" name="login" data-provider="Datos para Funcionalidad Login" finished-at="2021-04-10T17:37:46 ART" duration-ms="6287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correo3@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABCD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:46 ART" name="login" data-provider="Datos para Funcionalidad Login" finished-at="2021-04-10T17:37:50 ART" duration-ms="4043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correo4@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABCD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="finPrueba()[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:50 ART" name="finPrueba" finished-at="2021-04-10T17:37:50 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finPrueba -->
+        <test-method is-config="true" signature="cierreNavegador()[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:50 ART" name="cierreNavegador" finished-at="2021-04-10T17:37:50 ART" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cierreNavegador -->
+        <test-method is-config="true" signature="finSuite()[pri:0, instance:pruebas.Laboratorio4@158da8e]" started-at="2021-04-10T17:37:50 ART" name="finSuite" finished-at="2021-04-10T17:37:50 ART" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finSuite -->
+      </class> <!-- pruebas.Laboratorio4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Edit.EducacionIt.Laboratorio2">
+        <methods>
+          <include name="lab2_E1"/>
+        </methods>
+      </class> <!-- Edit.EducacionIt.Laboratorio2 -->
+      <class name="pruebas.Laboratorio3">
+        <methods>
+          <include name="setUp"/>
+          <include name="irURL"/>
+          <include name="cierreNavegador"/>
+          <include name="finSuite"/>
+          <include name="registroUsuario"/>
+          <include name="finPrueba"/>
+          <include name="maxVentana"/>
+        </methods>
+      </class> <!-- pruebas.Laboratorio3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
